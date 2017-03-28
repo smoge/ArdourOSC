@@ -1,6 +1,8 @@
 # ArdourOSC
 
-SuperCollider bindings for Ardour
+Bindings that allow SuperCollider code to control Ardour Audio Workstation
+
+[Ardour website](https://ardour.org/)
 
 Control of all the commands found in the GUI.
 

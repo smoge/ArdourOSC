@@ -1,0 +1,9 @@
+(
+\name: "ArdourOSC",
+\summary: "Bindings that allow SuperCollider code to control Ardour Audio Workstation",
+\version: "0.1.0",
+\url: "https://github.com/smoge/ArdourOSC",
+\dependencies: [],
+\copyright: "Bernardo Barros. 2017",
+\license: "GPLv3"
+)
