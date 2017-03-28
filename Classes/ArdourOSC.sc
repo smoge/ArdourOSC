@@ -191,13 +191,14 @@ ArdourOSC {
 	// where monitor_st is a bool/int where 1 is forced input monitoring.
 	strip_monitor_input { arg ssid, monitor_st; "Ardour: ".post;
 	a.sendMsg("/strip/monitor_input"  , ssid, monitor_st)
-}
+	}
 
-// where monitor_st is a bool/int where 1 is forced disk monitoring.
-// When input and disk are both off, Auto monitoring is enabled.
-strip_monitor_disk { arg ssid, monitor_st;
-	a.sendMsg("/strip/monitor_disk "  , ssid, monitor_st) }
-
+	// where monitor_st is a bool/int where 1 is forced disk monitoring.
+	// When input and disk are both off, Auto monitoring is enabled.
+	strip_monitor_disk { arg ssid, monitor_st;
+		a.sendMsg("/strip/monitor_disk "  , ssid, monitor_st)
+	}
+	
 	// where rec_st is a bool/int representing the desired rec state of the
 	// track
 	strip_recenable { arg ssid, rec_st;  a.sendMsg("/strip/recenable"  , ssid, rec_st) }
