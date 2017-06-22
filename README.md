@@ -7,7 +7,7 @@ Bindings that allow SuperCollider code to control Ardour Audio Workstation
 Control of all the commands found in the GUI.
 
 ```supercollider
-a = Ardour();
+a = ArdourOSC();
 
 // Puts transport in play mode
 a.play
