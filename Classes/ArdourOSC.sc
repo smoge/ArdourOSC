@@ -8,7 +8,7 @@ http://manual.ardour.org/using-control-surfaces/controlling-ardour-with-osc/osc-
 http://manual.ardour.org/using-control-surfaces/controlling-ardour-with-osc/querying-ardour-with-osc/
 */
 
-ArdourOSC {
+Ardour {
 
 	var a, <>port=3819;
 	//var <>verbosity=0;
